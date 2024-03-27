@@ -1,0 +1,124 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Open Sans", sans-serif;
+}
+
+
+aside {
+    background-color: #1A0931;
+    width: 65px;
+    position: fixed;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    top: 0;
+}
+
+main{
+    margin-left: 114px;    
+}
+
+.container{
+    display: flex;
+    width: 93%;
+    gap: 15px;
+}
+
+.leader {
+    margin-top: 20px;
+    height: 26.5px;
+}
+
+
+main h2 {
+    margin-top: 20px;
+    font-weight: 600;
+    font-size: 19px;
+    line-height: 24px;
+}
+
+.card-wrapper {
+    margin-top: 22px;
+    background-color: #FEFEFF;
+    border-radius: 5px;
+    border: 1px solid #E4E4E8;
+    height: fit-content;
+    width: 285px;
+    padding: 10px;
+}
+
+.queue {
+    font-size: 11px;
+    color:rgba(93, 99, 114, 1);
+    margin-bottom: 3px;
+}
+
+.card-wrapper h4 {
+    color: rgba(93, 99, 114, 1);
+    font-weight: 600;  
+    font-size: 14px;
+    margin-top: center;
+}
+
+.inner-card {
+    margin-top: 22px;
+    background-color: #ffff;
+    border: 1px solid #E4E4E8;
+    width: center;
+    padding: 15px;
+    color: rgba(47, 49, 54, 1);
+    border-radius: 5px;
+    font-size: 13px;
+    font-weight: 650;
+}
+
+.inner-card .progress   {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 25px;
+}
+
+.inner-card .progress .left-progress    {
+    display: flex;
+    gap: 8px;
+}
+.inner-card .progress .left-progress p{
+    font-size: 11px;
+    color: #5D6372;
+    font-weight: 500;
+}
+
+.no-task{
+    border: none;
+    margin-top: 10px;
+    padding-left: 0;
+    padding-bottom: 0;
+}
+.no-task p{
+    opacity: .3;
+    font-weight: 500;
+}
+
+.card-wrapper p.new-tsk{
+    margin-top: 10px;
+    font-size: 13px;
+    display: flex;
+    align-items: center;
+
+}
+
+.card-wrapper p.new-tsk span{
+    font-size: 20px;
+    color: #5E20B3;
+}
+
+@media (width < 745px) {
+    .container{
+        flex-direction: column;
+        align-items: center;
+    }
+}
