@@ -76,7 +76,25 @@ main h2 {
     font-weight: 650;
 }
 
+.inner-card-2 {
+    margin-top: 9px;
+    background-color: #ffff;
+    border: 1px solid #E4E4E8;
+    width: center;
+    padding: 15px;
+    color: rgba(47, 49, 54, 1);
+    border-radius: 5px;
+    font-size: 13px;
+    font-weight: 650;
+}
+
 .inner-card .progress   {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 25px;
+}
+
+.inner-card-2 .progress   {
     display: flex;
     justify-content: space-between;
     margin-top: 25px;
@@ -86,7 +104,19 @@ main h2 {
     display: flex;
     gap: 8px;
 }
+
+.inner-card-2 .progress .left-progress    {
+    display: flex;
+    gap: 8px;
+}
+
 .inner-card .progress .left-progress p{
+    font-size: 11px;
+    color: #5D6372;
+    font-weight: 500;
+}
+
+.inner-card-2 .progress .left-progress p{
     font-size: 11px;
     color: #5D6372;
     font-weight: 500;
